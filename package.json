@@ -16,6 +16,7 @@
     "lint": "biome lint",
     "typecheck": "tsc --noEmit",
     "format": "biome format --write",
+    "prepare": "pnpm run build",
     "prepublish": "pnpm run build",
     "test": "pnpm test:node && pnpm test:edge",
     "test:edge": "vitest --config vitest.edge.config.ts --run",

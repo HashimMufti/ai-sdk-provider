@@ -5,13 +5,13 @@ import type {
   LanguageModelV2ToolResultPart,
   SharedV2ProviderMetadata,
 } from '@ai-sdk/provider';
-import type { ReasoningDetailUnion } from '@/src/schemas/reasoning-details';
+import type { ReasoningDetailUnion } from '../schemas/reasoning-details';
 import type {
   ChatCompletionContentPart,
   OpenRouterChatCompletionsInput,
 } from '../types/openrouter-chat-completions-input';
 
-import { ReasoningDetailType } from '@/src/schemas/reasoning-details';
+import { ReasoningDetailType } from '../schemas/reasoning-details';
 import { getFileUrl } from './file-url-utils';
 import { isUrl } from './is-url';
 

@@ -1,4 +1,4 @@
-import type { ReasoningDetailUnion } from '@/src/schemas/reasoning-details';
+import type { ReasoningDetailUnion } from '../schemas/reasoning-details';
 
 // Type for OpenRouter Cache Control following Anthropic's pattern
 export type OpenRouterCacheControl = { type: 'ephemeral' };
